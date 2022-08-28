@@ -4,6 +4,10 @@ const allNum = document.querySelectorAll('.num')
 const input = document.querySelector('.input')
 const operand = document.querySelectorAll('.operand')
 const result = document.querySelector('.result_sum')
+const closeCalculator = document.querySelector('.close-calculator')
+closeCalculator.addEventListener('click', ()=>{
+    calculator.style.opacity = '0'
+})
 setTimeout(() =>{
     calculator.style.opacity = '1'
 },100)
